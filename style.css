@@ -1,0 +1,363 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.lo_go{
+    color: #0aa57c;
+}
+nav{
+    width: 100%;
+}
+.clear{
+    content: "";
+  clear: both;
+  display: table;
+}
+.border_side{
+    float: right;
+}
+.desc_ban{
+    padding: 50px;
+    margin-left: 60px;
+}
+.ban_img{
+    height: 90vh;
+}
+.custom_cur{
+    background-color: #EBEBE9;
+}
+.ban_head{
+    color: #0bc996;
+}
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    height: 50px;
+    width: 50px;
+    outline: black;
+    background-color: #00EEAD;
+    background-size: 50%, 50%;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+.btn_custom{
+    background-color: #0bc996;
+    color: white;
+}
+@media only screen and (max-width: 1024px) {
+    .border_side{
+        display: none;
+    }
+    nav{
+        width: 100%;
+    }
+  
+}
+
+
+.product_type{
+    margin: 30px;
+    text-align: center;
+    color: #0aa57c;
+}
+.product-grid{
+    text-align:center;
+    padding:0 0 72px;
+    border:1px solid rgba(0,0,0,.1);
+    overflow:hidden;
+    position:relative;
+    z-index:1;
+    margin-top: 40px;
+    background-color: #F0F1F5;
+    box-shadow: 0 3px 20px rgba(0,0,0,0.08);
+}
+.product-grid .product-image{
+    
+    transition:all .3s ease 0s
+}
+.product-grid .product-image a{
+    display:block
+}
+.product-grid .product-image img{
+    width:100%;
+    
+}
+.product-grid .pic-1{
+    opacity:1;
+    transition:all .3s ease-out 0s;
+    
+}
+.pic-1, .pic-2{
+    height: 300px;
+}
+.product-grid:hover .pic-1{
+    opacity:1
+}
+.product-grid .pic-2{
+    opacity:0;
+    position:absolute;
+    top:0;
+    left:0;
+    transition:all .3s ease-out 0s
+}
+.product-grid:hover .pic-2{
+    opacity:1
+}
+.product-grid .social{
+    width:150px;
+    padding:0;
+    margin:0;
+    list-style:none;
+    opacity:0;
+    transform:translateY(-50%) translateX(-50%);
+    position:absolute;
+    top:60%;
+    left:50%;
+    z-index:1;
+    transition:all .3s ease 0s
+}
+.product-grid:hover .social{
+    opacity:1;
+    top:50%
+}
+.product-grid .social li{
+    display:inline-block
+}
+.product-grid .social li a{
+    color:#fff;
+    background-color:#333;
+    font-size:16px;
+    line-height:40px;
+    text-align:center;
+    height:40px;
+    width:40px;
+    margin:0 2px;
+    display:block;
+    position:relative;
+    transition:all .3s ease-in-out
+}
+.product-grid .social li a:hover{
+    color:#fff;
+    background-color:#10cc9a
+}
+.product-grid .social li a:after,
+.product-grid .social li a:before{
+    content:attr(data-tip);
+    color:#fff;
+    background-color:#000;
+    font-size:12px;
+    letter-spacing:1px;
+    line-height:20px;
+    padding:1px 5px;
+    white-space:nowrap;
+    opacity:0;
+    transform:translateX(-50%);
+    position:absolute;
+    left:50%;
+    top:-30px
+}
+.product-grid .social li a:after{
+    content:'';
+    height:15px;
+    width:15px;
+    border-radius:0;
+    transform:translateX(-50%) rotate(45deg);
+    top:-20px;
+    z-index:-1
+}
+.product-grid .social li a:hover:after,
+.product-grid .social li a:hover:before{
+    opacity:1
+}
+.product-grid .product-discount-label,
+.product-grid .product-new-label{
+    color:#fff;
+    background-color:#10cc9a;
+    font-size:12px;
+    text-transform:uppercase;
+    padding:2px 7px;
+    display:block;
+    position:absolute;
+    top:10px;
+    left:0
+}
+.product-grid .product-discount-label{
+    background-color:#333;
+    left:auto;
+    right:0
+}
+.product-grid .rating{
+    color:#FFD200;
+    font-size:12px;
+    padding:12px 0 0;
+    margin:0;
+    list-style:none;
+    position:relative;
+    z-index:-1
+}
+.product-grid .rating li.disable{
+    color:rgba(0,0,0,.2)
+}
+.product-grid .product-content{
+    background-color:#fff;
+    text-align:center;
+    padding:12px 0;
+    margin:0 auto;
+    position:absolute;
+    left:0;
+    right:0;
+    bottom:-30px;
+    z-index:1;
+    transition:all .3s
+}
+.product-grid:hover .product-content{
+    bottom:0
+}
+.product-grid .title{
+    font-size:13px;
+    font-weight:400;
+    letter-spacing:.5px;
+    text-transform:capitalize;
+    margin:0 0 10px;
+    transition:all .3s ease 0s
+}
+.product-grid .title a{
+    color:#828282
+}
+.product-grid .title a:hover,
+.product-grid:hover .title a{
+    color:#00EEAD
+}
+.product-grid .price{
+    color:#333;
+    font-size:17px; 
+    font-weight:700;
+    letter-spacing:.6px;
+    margin-bottom:8px;
+    text-align:center;
+    transition:all .3s
+}
+.product-grid .price span{
+    color:#999;
+    font-size:13px;
+    font-weight:400;
+    text-decoration:line-through;
+    margin-left:3px;
+    display:inline-block
+}
+.product-grid .add-to-cart{
+    color:#000;
+    font-size:13px;
+    font-weight:600
+}
+
+
+.bannerr{
+    margin-top: 60px;
+    background: #2c2e3d;
+    height: 60vh;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.8;
+}
+.bannerr_head{
+    text-align: center;
+    color:white;
+    padding-top: 100px;
+}
+.bannerr_desc{
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+    letter-spacing: 3px;
+    line-height: 1.6;
+}
+.email_send{
+  margin: auto;
+  width: 60%;
+  border: 3px solid #73AD21;
+  padding: 10px;
+}
+.email_write{
+    width: 70%;
+}
+.btn_cus{
+    background: #1f9659;
+    color: white;
+    margin-left: 10px;
+    width: 30%;
+}
+.conn{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.connh1{
+    margin-top: 3px;
+}
+.ico_1{
+    margin-left: 20px;
+    padding: 10px;
+    border-radius: 50%;
+    background: #0bc291;
+    color: white;
+}
+.connec{
+    margin-left: 5px;
+    padding: 10px;
+    border-radius: 50%;
+    background: #0bc291;
+    color: white;
+}
+.footer_head{
+    display: inline-block;
+    color: #0bc291;
+    padding: 15px 0;
+    border-bottom: 5px solid #0bc291;
+}
+.footer_link{
+    margin-top: 5px;
+    display: block;
+    color: #000000;
+    text-decoration: none;
+}
+.footer_con{
+    margin-left: 15px;
+}
+.last_content{
+    margin-top: 20px;
+    text-align: center;
+    background: #000000;
+    color: white;
+    padding: 15px;
+    margin-bottom: 0;
+}
+@media only screen and (max-width:990px){
+    .product-grid{
+        margin-bottom:30px
+    }
+    .bannerr{
+        height: 95vh;
+    }
+    .email_send{
+        width: 100%;
+    }
+    .conn{
+        display: inline;
+    }
+    .connh1{
+        margin-top: 30px;
+        text-align: center;
+    }
+    .conn_ico{
+        display: flex;
+        justify-content: center;
+    }
+    .footer_head{
+        display: flex;
+        justify-content: center;
+    }
+    .footer_link{
+        display: flex;
+        justify-content: center;
+    }
+}

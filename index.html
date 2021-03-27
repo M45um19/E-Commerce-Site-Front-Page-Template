@@ -1,0 +1,853 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css">
+    <title>E Commerce</title>
+</head>
+<body>
+    <img class="border_side" src="image/sidebar.PNG">
+<nav class="navbar navbar-expand-lg navbar-light bg-white">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"><span class="lo_go">E Commerce</span></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Sign up</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Order</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Cart(0)</a>
+        </li>
+        <li class="nav-item">
+        <a class="btn btn-outline-success" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+    Log in
+  </a>
+        </li>
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+<div class="collapse" id="collapseExample">
+  <div class="card card-body">
+  <div class="container">
+    <div class="row">
+        <div class="col-sm-4">
+        <form class="" action="" method="POST">
+        
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Email address</label>
+                <input name="email" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Password</label>
+                <input name="password" type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <button type="submit" class="btn btn-success">Submit</button>
+    </form>
+        </div>
+    </div>
+  </div>
+  </div>
+</div>
+
+
+<div class="clear">
+
+</div>
+<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active custom_cur">
+      <div class="row align-items-center">
+              <div class="col-6 desc_ban">
+                <h1 class="ban_head">Red Shirt</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas similique quod, iste adipisci, ad ipsam dolor ducimus magni nam, explicabo deleniti. Sit suscipit placeat quibusdam molestiae veniam dolores esse reprehenderit!</p>
+                <h2>$120</h2>
+                <button type="button" class="btn btn_custom">Buy Now</button>
+              </div>
+              <div class="col-md-5">
+                <img src="image/1.png" class=" w-100 ban_img" alt="...">
+             </div>
+      </div> 
+      </div>
+      <div class="carousel-item custom_cur">
+      <div class="row align-items-center">
+              <div class="col-6 desc_ban">
+                <h1 class="ban_head">Red Shirt</h1>
+                <p>isci, ad ipsam dolor ducimus magni nam, explicabo deleniti. Sit suscipit placeat quibusdam molestiae veniam dolores esse reprehenderit!</p>
+                <h2>$120</h2>
+                <button type="button" class="btn btn_custom">Buy Now</button>
+              </div>
+              <div class="col-md-5">
+                <img src="image/1.png" class=" w-100 ban_img" alt="...">
+             </div>
+      </div>
+      </div>
+      <div class="carousel-item custom_cur">
+      <div class="row align-items-center">
+              <div class="col-6 desc_ban">
+                <h1 class="ban_head">Red Shirt</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas similique quod, iste adipisci, ad ipsam dolor ducimus magni nam, explicabo deleniti. Sit suscipit placeat quibusdam molestiae veniam dolores esse reprehenderit!</p>
+                <h2>$120</h2>
+                <button type="button" class="btn btn_custom">Buy Now</button>
+              </div>
+              <div class="col-md-5">
+                <img src="image/1.png" class=" w-100 ban_img" alt="...">
+             </div>
+      </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <h3 class="product_type">Trending products</h3>
+
+  <div class="container"> 
+    <div class="row">
+        <div class="col-md-3 col-sm-6">
+            <div class="product-grid">
+                <div class="product-image">
+                    <a href="#">
+                        <img class="pic-1" src="image/1.png">
+                        <img class="pic-2" src="image/1.png">
+                    </a>
+                    <ul class="social">
+                        <li><a href="" data-tip="Quick View"><i class="fa fa-search"></i></a></li>
+                        <li><a href="" data-tip="Add to Wishlist"><i class="fa fa-shopping-bag"></i></a></li>
+                        <li><a href="" data-tip="Add to Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                    </ul>
+                    <span class="product-new-label">Sale</span>
+                    <span class="product-discount-label">20%</span>
+                </div>
+                <ul class="rating">
+                    <li class="fa fa-star"></li>
+                    <li class="fa fa-star"></li>
+                    <li class="fa fa-star"></li>
+                    <li class="fa fa-star"></li>
+                    <li class="fa fa-star disable"></li>
+                </ul>
+                <div class="product-content">
+                    <h3 class="title"><a href="#">Women's Blouse</a></h3>
+                    <div class="price">$16.00
+                        <span>$20.00</span>
+                    </div>
+                    <a class="add-to-cart" href="">+ Add To Cart</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+            <div class="product-grid">
+                <div class="product-image">
+                    <a href="#">
+                        <img class="pic-1" src="image/2.png">
+                        <img class="pic-2" src="image/2.png">
+                    </a>
+                    <ul class="social">
+                        <li><a href="" data-tip="Quick View"><i class="fa fa-search"></i></a></li>
+                        <li><a href="" data-tip="Add to Wishlist"><i class="fa fa-shopping-bag"></i></a></li>
+                        <li><a href="" data-tip="Add to Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                    </ul>
+                    <span class="product-new-label">Sale</span>
+                    <span class="product-discount-label">30%</span>
+                </div>
+                <ul class="rating">
+                    <li class="fa fa-star"></li>
+                    <li class="fa fa-star"></li>
+                    <li class="fa fa-star"></li>
+                    <li class="fa fa-star"></li>
+                    <li class="fa fa-star"></li>
+                </ul>
+                <div class="product-content">
+                    <h3 class="title"><a href="#">Men's Plain Tshirt</a></h3>
+                    <div class="price">$35.00
+                        <span>$100.00</span>
+                    </div>
+                    <a class="add-to-cart" href="">+ Add To Cart</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+            <div class="product-grid">
+                <div class="product-image">
+                    <a href="#">
+                        <img class="pic-1" src="image/3.png">
+                        <img class="pic-2" src="image/3.png">
+                    </a>
+                    <ul class="social">
+                        <li><a href="" data-tip="Quick View"><i class="fa fa-search"></i></a></li>
+                        <li><a href="" data-tip="Add to Wishlist"><i class="fa fa-shopping-bag"></i></a></li>
+                        <li><a href="" data-tip="Add to Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                    </ul>
+                    <span class="product-new-label">Sale</span>
+                    <span class="product-discount-label">50%</span>
+                </div>
+                <ul class="rating">
+                    <li class="fa fa-star"></li>
+                    <li class="fa fa-star"></li>
+                    <li class="fa fa-star"></li>
+                    <li class="fa fa-star"></li>
+                    <li class="fa fa-star"></li>
+                </ul>
+                <div class="product-content">
+                    <h3 class="title"><a href="#">Marks & Spencer</a></h3>
+                    <div class="price">$50.00
+                        <span>$100.00</span>
+                    </div>
+                    <a class="add-to-cart" href="">+ Add To Cart</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+            <div class="product-grid">
+                <div class="product-image">
+                    <a href="#">
+                        <img class="pic-1" src="image/2.png">
+                        <img class="pic-2" src="image/2.png">
+                    </a>
+                    <ul class="social">
+                        <li><a href="" data-tip="Quick View"><i class="fa fa-search"></i></a></li>
+                        <li><a href="" data-tip="Add to Wishlist"><i class="fa fa-shopping-bag"></i></a></li>
+                        <li><a href="" data-tip="Add to Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                    </ul>
+                    <span class="product-new-label">Sale</span>
+                    <span class="product-discount-label">20%</span>
+                </div>
+                <ul class="rating">
+                    <li class="fa fa-star"></li>
+                    <li class="fa fa-star"></li>
+                    <li class="fa fa-star"></li>
+                    <li class="fa fa-star"></li>
+                    <li class="fa fa-star"></li>
+                </ul>
+                <div class="product-content">
+                    <h3 class="title"><a href="#">Men's Formal Shirt</a></h3>
+                    <div class="price">$60.00
+                        <span>$80.00</span>
+                    </div>
+                    <a class="add-to-cart" href="">+ Add To Cart</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+      <div class="col-md-3 col-sm-6">
+          <div class="product-grid">
+              <div class="product-image">
+                  <a href="#">
+                      <img class="pic-1" src="image/1.png">
+                      <img class="pic-2" src="image/1.png">
+                  </a>
+                  <ul class="social">
+                      <li><a href="" data-tip="Quick View"><i class="fa fa-search"></i></a></li>
+                      <li><a href="" data-tip="Add to Wishlist"><i class="fa fa-shopping-bag"></i></a></li>
+                      <li><a href="" data-tip="Add to Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                  </ul>
+                  <span class="product-new-label">Sale</span>
+                  <span class="product-discount-label">20%</span>
+              </div>
+              <ul class="rating">
+                  <li class="fa fa-star"></li>
+                  <li class="fa fa-star"></li>
+                  <li class="fa fa-star"></li>
+                  <li class="fa fa-star"></li>
+                  <li class="fa fa-star disable"></li>
+              </ul>
+              <div class="product-content">
+                  <h3 class="title"><a href="#">Women's Blouse</a></h3>
+                  <div class="price">$16.00
+                      <span>$20.00</span>
+                  </div>
+                  <a class="add-to-cart" href="">+ Add To Cart</a>
+              </div>
+          </div>
+      </div>
+      <div class="col-md-3 col-sm-6">
+          <div class="product-grid">
+              <div class="product-image">
+                  <a href="#">
+                      <img class="pic-1" src="image/2.png">
+                      <img class="pic-2" src="image/2.png">
+                  </a>
+                  <ul class="social">
+                      <li><a href="" data-tip="Quick View"><i class="fa fa-search"></i></a></li>
+                      <li><a href="" data-tip="Add to Wishlist"><i class="fa fa-shopping-bag"></i></a></li>
+                      <li><a href="" data-tip="Add to Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                  </ul>
+                  <span class="product-new-label">Sale</span>
+                  <span class="product-discount-label">30%</span>
+              </div>
+              <ul class="rating">
+                  <li class="fa fa-star"></li>
+                  <li class="fa fa-star"></li>
+                  <li class="fa fa-star"></li>
+                  <li class="fa fa-star"></li>
+                  <li class="fa fa-star"></li>
+              </ul>
+              <div class="product-content">
+                  <h3 class="title"><a href="#">Men's Plain Tshirt</a></h3>
+                  <div class="price">$35.00
+                      <span>$100.00</span>
+                  </div>
+                  <a class="add-to-cart" href="">+ Add To Cart</a>
+              </div>
+          </div>
+      </div>
+      <div class="col-md-3 col-sm-6">
+          <div class="product-grid">
+              <div class="product-image">
+                  <a href="#">
+                      <img class="pic-1" src="image/3.png">
+                      <img class="pic-2" src="image/3.png">
+                  </a>
+                  <ul class="social">
+                      <li><a href="" data-tip="Quick View"><i class="fa fa-search"></i></a></li>
+                      <li><a href="" data-tip="Add to Wishlist"><i class="fa fa-shopping-bag"></i></a></li>
+                      <li><a href="" data-tip="Add to Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                  </ul>
+                  <span class="product-new-label">Sale</span>
+                  <span class="product-discount-label">50%</span>
+              </div>
+              <ul class="rating">
+                  <li class="fa fa-star"></li>
+                  <li class="fa fa-star"></li>
+                  <li class="fa fa-star"></li>
+                  <li class="fa fa-star"></li>
+                  <li class="fa fa-star"></li>
+              </ul>
+              <div class="product-content">
+                  <h3 class="title"><a href="#">Marks & Spencer</a></h3>
+                  <div class="price">$50.00
+                      <span>$100.00</span>
+                  </div>
+                  <a class="add-to-cart" href="">+ Add To Cart</a>
+              </div>
+          </div>
+      </div>
+      <div class="col-md-3 col-sm-6">
+          <div class="product-grid">
+              <div class="product-image">
+                  <a href="#">
+                      <img class="pic-1" src="image/2.png">
+                      <img class="pic-2" src="image/2.png">
+                  </a>
+                  <ul class="social">
+                      <li><a href="" data-tip="Quick View"><i class="fa fa-search"></i></a></li>
+                      <li><a href="" data-tip="Add to Wishlist"><i class="fa fa-shopping-bag"></i></a></li>
+                      <li><a href="" data-tip="Add to Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                  </ul>
+                  <span class="product-new-label">Sale</span>
+                  <span class="product-discount-label">20%</span>
+              </div>
+              <ul class="rating">
+                  <li class="fa fa-star"></li>
+                  <li class="fa fa-star"></li>
+                  <li class="fa fa-star"></li>
+                  <li class="fa fa-star"></li>
+                  <li class="fa fa-star"></li>
+              </ul>
+              <div class="product-content">
+                  <h3 class="title"><a href="#">Men's Formal Shirt</a></h3>
+                  <div class="price">$60.00
+                      <span>$80.00</span>
+                  </div>
+                  <a class="add-to-cart" href="">+ Add To Cart</a>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+
+<h3 class="product_type">Best products</h3>
+
+
+<div class="container"> 
+    <div class="row">
+        <div class="col-md-3 col-sm-6">
+            <div class="product-grid">
+                <div class="product-image">
+                    <a href="#">
+                        <img class="pic-1" src="image/1.png">
+                        <img class="pic-2" src="image/1.png">
+                    </a>
+                    <ul class="social">
+                        <li><a href="" data-tip="Quick View"><i class="fa fa-search"></i></a></li>
+                        <li><a href="" data-tip="Add to Wishlist"><i class="fa fa-shopping-bag"></i></a></li>
+                        <li><a href="" data-tip="Add to Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                    </ul>
+                    <span class="product-new-label">Sale</span>
+                    <span class="product-discount-label">20%</span>
+                </div>
+                <ul class="rating">
+                    <li class="fa fa-star"></li>
+                    <li class="fa fa-star"></li>
+                    <li class="fa fa-star"></li>
+                    <li class="fa fa-star"></li>
+                    <li class="fa fa-star disable"></li>
+                </ul>
+                <div class="product-content">
+                    <h3 class="title"><a href="#">Women's Blouse</a></h3>
+                    <div class="price">$16.00
+                        <span>$20.00</span>
+                    </div>
+                    <a class="add-to-cart" href="">+ Add To Cart</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+            <div class="product-grid">
+                <div class="product-image">
+                    <a href="#">
+                        <img class="pic-1" src="image/2.png">
+                        <img class="pic-2" src="image/2.png">
+                    </a>
+                    <ul class="social">
+                        <li><a href="" data-tip="Quick View"><i class="fa fa-search"></i></a></li>
+                        <li><a href="" data-tip="Add to Wishlist"><i class="fa fa-shopping-bag"></i></a></li>
+                        <li><a href="" data-tip="Add to Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                    </ul>
+                    <span class="product-new-label">Sale</span>
+                    <span class="product-discount-label">30%</span>
+                </div>
+                <ul class="rating">
+                    <li class="fa fa-star"></li>
+                    <li class="fa fa-star"></li>
+                    <li class="fa fa-star"></li>
+                    <li class="fa fa-star"></li>
+                    <li class="fa fa-star"></li>
+                </ul>
+                <div class="product-content">
+                    <h3 class="title"><a href="#">Men's Plain Tshirt</a></h3>
+                    <div class="price">$35.00
+                        <span>$100.00</span>
+                    </div>
+                    <a class="add-to-cart" href="">+ Add To Cart</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+            <div class="product-grid">
+                <div class="product-image">
+                    <a href="#">
+                        <img class="pic-1" src="image/3.png">
+                        <img class="pic-2" src="image/3.png">
+                    </a>
+                    <ul class="social">
+                        <li><a href="" data-tip="Quick View"><i class="fa fa-search"></i></a></li>
+                        <li><a href="" data-tip="Add to Wishlist"><i class="fa fa-shopping-bag"></i></a></li>
+                        <li><a href="" data-tip="Add to Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                    </ul>
+                    <span class="product-new-label">Sale</span>
+                    <span class="product-discount-label">50%</span>
+                </div>
+                <ul class="rating">
+                    <li class="fa fa-star"></li>
+                    <li class="fa fa-star"></li>
+                    <li class="fa fa-star"></li>
+                    <li class="fa fa-star"></li>
+                    <li class="fa fa-star"></li>
+                </ul>
+                <div class="product-content">
+                    <h3 class="title"><a href="#">Marks & Spencer</a></h3>
+                    <div class="price">$50.00
+                        <span>$100.00</span>
+                    </div>
+                    <a class="add-to-cart" href="">+ Add To Cart</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+            <div class="product-grid">
+                <div class="product-image">
+                    <a href="#">
+                        <img class="pic-1" src="image/2.png">
+                        <img class="pic-2" src="image/2.png">
+                    </a>
+                    <ul class="social">
+                        <li><a href="" data-tip="Quick View"><i class="fa fa-search"></i></a></li>
+                        <li><a href="" data-tip="Add to Wishlist"><i class="fa fa-shopping-bag"></i></a></li>
+                        <li><a href="" data-tip="Add to Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                    </ul>
+                    <span class="product-new-label">Sale</span>
+                    <span class="product-discount-label">20%</span>
+                </div>
+                <ul class="rating">
+                    <li class="fa fa-star"></li>
+                    <li class="fa fa-star"></li>
+                    <li class="fa fa-star"></li>
+                    <li class="fa fa-star"></li>
+                    <li class="fa fa-star"></li>
+                </ul>
+                <div class="product-content">
+                    <h3 class="title"><a href="#">Men's Formal Shirt</a></h3>
+                    <div class="price">$60.00
+                        <span>$80.00</span>
+                    </div>
+                    <a class="add-to-cart" href="">+ Add To Cart</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div> 
+
+<h3 class="product_type">All products</h3>
+
+  <div class="container"> 
+    <div class="row">
+        <div class="col-md-3 col-sm-6">
+            <div class="product-grid">
+                <div class="product-image">
+                    <a href="#">
+                        <img class="pic-1" src="image/1.png">
+                        <img class="pic-2" src="image/1.png">
+                    </a>
+                    <ul class="social">
+                        <li><a href="" data-tip="Quick View"><i class="fa fa-search"></i></a></li>
+                        <li><a href="" data-tip="Add to Wishlist"><i class="fa fa-shopping-bag"></i></a></li>
+                        <li><a href="" data-tip="Add to Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                    </ul>
+                    <span class="product-new-label">Sale</span>
+                    <span class="product-discount-label">20%</span>
+                </div>
+                <ul class="rating">
+                    <li class="fa fa-star"></li>
+                    <li class="fa fa-star"></li>
+                    <li class="fa fa-star"></li>
+                    <li class="fa fa-star"></li>
+                    <li class="fa fa-star disable"></li>
+                </ul>
+                <div class="product-content">
+                    <h3 class="title"><a href="#">Women's Blouse</a></h3>
+                    <div class="price">$16.00
+                        <span>$20.00</span>
+                    </div>
+                    <a class="add-to-cart" href="">+ Add To Cart</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+            <div class="product-grid">
+                <div class="product-image">
+                    <a href="#">
+                        <img class="pic-1" src="image/2.png">
+                        <img class="pic-2" src="image/2.png">
+                    </a>
+                    <ul class="social">
+                        <li><a href="" data-tip="Quick View"><i class="fa fa-search"></i></a></li>
+                        <li><a href="" data-tip="Add to Wishlist"><i class="fa fa-shopping-bag"></i></a></li>
+                        <li><a href="" data-tip="Add to Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                    </ul>
+                    <span class="product-new-label">Sale</span>
+                    <span class="product-discount-label">30%</span>
+                </div>
+                <ul class="rating">
+                    <li class="fa fa-star"></li>
+                    <li class="fa fa-star"></li>
+                    <li class="fa fa-star"></li>
+                    <li class="fa fa-star"></li>
+                    <li class="fa fa-star"></li>
+                </ul>
+                <div class="product-content">
+                    <h3 class="title"><a href="#">Men's Plain Tshirt</a></h3>
+                    <div class="price">$35.00
+                        <span>$100.00</span>
+                    </div>
+                    <a class="add-to-cart" href="">+ Add To Cart</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+            <div class="product-grid">
+                <div class="product-image">
+                    <a href="#">
+                        <img class="pic-1" src="image/3.png">
+                        <img class="pic-2" src="image/3.png">
+                    </a>
+                    <ul class="social">
+                        <li><a href="" data-tip="Quick View"><i class="fa fa-search"></i></a></li>
+                        <li><a href="" data-tip="Add to Wishlist"><i class="fa fa-shopping-bag"></i></a></li>
+                        <li><a href="" data-tip="Add to Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                    </ul>
+                    <span class="product-new-label">Sale</span>
+                    <span class="product-discount-label">50%</span>
+                </div>
+                <ul class="rating">
+                    <li class="fa fa-star"></li>
+                    <li class="fa fa-star"></li>
+                    <li class="fa fa-star"></li>
+                    <li class="fa fa-star"></li>
+                    <li class="fa fa-star"></li>
+                </ul>
+                <div class="product-content">
+                    <h3 class="title"><a href="#">Marks & Spencer</a></h3>
+                    <div class="price">$50.00
+                        <span>$100.00</span>
+                    </div>
+                    <a class="add-to-cart" href="">+ Add To Cart</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+            <div class="product-grid">
+                <div class="product-image">
+                    <a href="#">
+                        <img class="pic-1" src="image/2.png">
+                        <img class="pic-2" src="image/2.png">
+                    </a>
+                    <ul class="social">
+                        <li><a href="" data-tip="Quick View"><i class="fa fa-search"></i></a></li>
+                        <li><a href="" data-tip="Add to Wishlist"><i class="fa fa-shopping-bag"></i></a></li>
+                        <li><a href="" data-tip="Add to Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                    </ul>
+                    <span class="product-new-label">Sale</span>
+                    <span class="product-discount-label">20%</span>
+                </div>
+                <ul class="rating">
+                    <li class="fa fa-star"></li>
+                    <li class="fa fa-star"></li>
+                    <li class="fa fa-star"></li>
+                    <li class="fa fa-star"></li>
+                    <li class="fa fa-star"></li>
+                </ul>
+                <div class="product-content">
+                    <h3 class="title"><a href="#">Men's Formal Shirt</a></h3>
+                    <div class="price">$60.00
+                        <span>$80.00</span>
+                    </div>
+                    <a class="add-to-cart" href="">+ Add To Cart</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+      <div class="col-md-3 col-sm-6">
+          <div class="product-grid">
+              <div class="product-image">
+                  <a href="#">
+                      <img class="pic-1" src="image/1.png">
+                      <img class="pic-2" src="image/1.png">
+                  </a>
+                  <ul class="social">
+                      <li><a href="" data-tip="Quick View"><i class="fa fa-search"></i></a></li>
+                      <li><a href="" data-tip="Add to Wishlist"><i class="fa fa-shopping-bag"></i></a></li>
+                      <li><a href="" data-tip="Add to Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                  </ul>
+                  <span class="product-new-label">Sale</span>
+                  <span class="product-discount-label">20%</span>
+              </div>
+              <ul class="rating">
+                  <li class="fa fa-star"></li>
+                  <li class="fa fa-star"></li>
+                  <li class="fa fa-star"></li>
+                  <li class="fa fa-star"></li>
+                  <li class="fa fa-star disable"></li>
+              </ul>
+              <div class="product-content">
+                  <h3 class="title"><a href="#">Women's Blouse</a></h3>
+                  <div class="price">$16.00
+                      <span>$20.00</span>
+                  </div>
+                  <a class="add-to-cart" href="">+ Add To Cart</a>
+              </div>
+          </div>
+      </div>
+      <div class="col-md-3 col-sm-6">
+          <div class="product-grid">
+              <div class="product-image">
+                  <a href="#">
+                      <img class="pic-1" src="image/2.png">
+                      <img class="pic-2" src="image/2.png">
+                  </a>
+                  <ul class="social">
+                      <li><a href="" data-tip="Quick View"><i class="fa fa-search"></i></a></li>
+                      <li><a href="" data-tip="Add to Wishlist"><i class="fa fa-shopping-bag"></i></a></li>
+                      <li><a href="" data-tip="Add to Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                  </ul>
+                  <span class="product-new-label">Sale</span>
+                  <span class="product-discount-label">30%</span>
+              </div>
+              <ul class="rating">
+                  <li class="fa fa-star"></li>
+                  <li class="fa fa-star"></li>
+                  <li class="fa fa-star"></li>
+                  <li class="fa fa-star"></li>
+                  <li class="fa fa-star"></li>
+              </ul>
+              <div class="product-content">
+                  <h3 class="title"><a href="#">Men's Plain Tshirt</a></h3>
+                  <div class="price">$35.00
+                      <span>$100.00</span>
+                  </div>
+                  <a class="add-to-cart" href="">+ Add To Cart</a>
+              </div>
+          </div>
+      </div>
+      <div class="col-md-3 col-sm-6">
+          <div class="product-grid">
+              <div class="product-image">
+                  <a href="#">
+                      <img class="pic-1" src="image/3.png">
+                      <img class="pic-2" src="image/3.png">
+                  </a>
+                  <ul class="social">
+                      <li><a href="" data-tip="Quick View"><i class="fa fa-search"></i></a></li>
+                      <li><a href="" data-tip="Add to Wishlist"><i class="fa fa-shopping-bag"></i></a></li>
+                      <li><a href="" data-tip="Add to Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                  </ul>
+                  <span class="product-new-label">Sale</span>
+                  <span class="product-discount-label">50%</span>
+              </div>
+              <ul class="rating">
+                  <li class="fa fa-star"></li>
+                  <li class="fa fa-star"></li>
+                  <li class="fa fa-star"></li>
+                  <li class="fa fa-star"></li>
+                  <li class="fa fa-star"></li>
+              </ul>
+              <div class="product-content">
+                  <h3 class="title"><a href="#">Marks & Spencer</a></h3>
+                  <div class="price">$50.00
+                      <span>$100.00</span>
+                  </div>
+                  <a class="add-to-cart" href="">+ Add To Cart</a>
+              </div>
+          </div>
+      </div>
+      <div class="col-md-3 col-sm-6">
+          <div class="product-grid">
+              <div class="product-image">
+                  <a href="#">
+                      <img class="pic-1" src="image/2.png">
+                      <img class="pic-2" src="image/2.png">
+                  </a>
+                  <ul class="social">
+                      <li><a href="" data-tip="Quick View"><i class="fa fa-search"></i></a></li>
+                      <li><a href="" data-tip="Add to Wishlist"><i class="fa fa-shopping-bag"></i></a></li>
+                      <li><a href="" data-tip="Add to Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                  </ul>
+                  <span class="product-new-label">Sale</span>
+                  <span class="product-discount-label">20%</span>
+              </div>
+              <ul class="rating">
+                  <li class="fa fa-star"></li>
+                  <li class="fa fa-star"></li>
+                  <li class="fa fa-star"></li>
+                  <li class="fa fa-star"></li>
+                  <li class="fa fa-star"></li>
+              </ul>
+              <div class="product-content">
+                  <h3 class="title"><a href="#">Men's Formal Shirt</a></h3>
+                  <div class="price">$60.00
+                      <span>$80.00</span>
+                  </div>
+                  <a class="add-to-cart" href="">+ Add To Cart</a>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+
+
+<div class="bannerr container">
+  <div>
+    <h1 class="bannerr_head">Get Our special discount</h1>
+  </div>
+  <p class="bannerr_desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis tempora ab officia similique maxime quae mollitia labore ratione voluptatibus, laborum voluptas repudiandae exercitationem reprehenderit omnis tenetur veniam harum, suscipit, a eius architecto quisquam velit! Neque unde ut magni porro similique?</p>
+  <div class="email_send">
+    <form class="d-flex ">
+      <input class="email_write" type="search" placeholder="Write Email" aria-label="Search">
+      <button class="btn btn_cus" type="submit">Send</button>
+    </form>
+  </div>
+</div>
+
+
+<div class="conn">
+  <h5 class="connh1">keep connected with us</h5>
+  <div class="conn_ico">
+    <i class="fab fa-facebook-f ico_1"></i>
+    <i class="connec fab fa-twitter"></i>
+    <i class="connec fab fa-linkedin-in"></i>
+    <i class="connec fab fa-instagram-square"></i>
+  </div>
+</div>
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm">
+          <div class="">
+            <h4 class="footer_head">Information</h4>
+          <div>
+            <a class="footer_link" href="">Discount</a>
+            <a class="footer_link" href="">Terms and condition</a>
+            <a class="footer_link" href="">About us</a>
+            <a class="footer_link" href="">Privacy Policy</a>
+          </div>
+          </div>
+        </div>
+        <div class="col-sm">
+          <h4 class="footer_head">My Account</h4>
+          <div>
+            <a class="footer_link" href="">Log in</a>
+            <a class="footer_link" href="">Sign Up</a>
+            <a class="footer_link" href="">Cart(0)</a>
+            <a class="footer_link" href="">Order</a>
+          </div>
+        </div>
+        <div class="col-sm">
+          <h4 class="footer_head">Help</h4>
+          <div>
+            <a class="footer_link" href="">F A Q</a>
+            <a class="footer_link" href="">Contact us</a>
+            <a class="footer_link" href="">Terms and Condition</a>
+          </div>
+        </div>
+        <div class="col-sm">
+          <h4 class="footer_head">Contact Info</h4>
+          <div>
+            <a class="footer_link" href=""><i class="fas fa-globe-americas"></i><span class="footer_con">Dhaka,Bangladesh</span></a>
+            <a class="footer_link" href=""><i class="fas fa-phone-alt"></i><span class="footer_con">+088-156*2156</span></a>
+            <a class="footer_link" href=""><i class="fas fa-envelope"></i><span class="footer_con">Test@test.com</span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <div>
+    <p class="last_content">Template made by &copy; Naim Istiak Masum</p>
+  </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+</body>
+</html>
